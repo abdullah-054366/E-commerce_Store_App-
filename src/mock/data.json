@@ -1,0 +1,428 @@
+{
+  "siteConfig": {
+    "logoText": "LUNORA FASHION",
+    "logoImage": null,
+    "announcement": "✨ شحن مجاني للطلبات الكبيرة أكثر من 300 ر.س | استخدام كود LUNORA10 للحصول على خصم 10%",
+    "primaryColor": "#181818",
+    "secondaryColor": "#A9906F",
+    "currency": "ر.س",
+    "freeShippingThreshold": 300,
+    "shippingFee": 25,
+    "paymentMethods": {
+      "creditCard": true,
+      "mada": true,
+      "applePay": true,
+      "cod": true
+    }
+  },
+  "heroBanners": [
+    {
+      "id": "banner-1",
+      "badge": "مجموعة خريف 2026 الحصرية",
+      "title": "Elevate Your Everyday Style",
+      "titleAr": "ارتقي بأسلوبك اليومي مع تشكيلة لونورا",
+      "subtitle": "أناقة فاخرة وتصاميم انسيابية تنبض بالأنوثة والرقي.",
+      "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1400&auto=format&fit=crop",
+      "ctaText": "تسوقي التشكيلة",
+      "ctaLink": "/shop",
+      "bgColor": "#F5F1EC"
+    },
+    {
+      "id": "banner-2",
+      "badge": "الأكثر طلباً",
+      "title": "Minimal Luxury Haute Couture",
+      "titleAr": "البساطة الفاخرة والأزياء الراقية",
+      "subtitle": "قطع فريدة مصنوعة من أرقى أقمشة الحرير والكتان المطرز.",
+      "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1400&auto=format&fit=crop",
+      "ctaText": "اكتشفي الآن",
+      "ctaLink": "/shop?category=dresses",
+      "bgColor": "#EFEBE6"
+    },
+    {
+      "id": "banner-3",
+      "badge": "عروض لفترة محدودة",
+      "title": "Exclusive Evening Elegance",
+      "titleAr": "أناقة السهرات والمناسبات الخاصة",
+      "subtitle": "إطلالات تأسر الألباب بلمسات ذهبية ناعمة.",
+      "image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=1400&auto=format&fit=crop",
+      "ctaText": "تصفح الفساتين",
+      "ctaLink": "/shop?category=dresses",
+      "bgColor": "#F2ECE4"
+    }
+  ],
+  "promoBanners": [
+    {
+      "id": "promo-1",
+      "tag": "Spring Collection",
+      "title": "Spring Sale up to 50% OFF",
+      "titleAr": "خصومات الربيع تصل حتى 50%",
+      "desc": "احصلي على أرقى الفساتين والإكسسوارات بأسعار استثنائية لفترة محدودة.",
+      "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=800&auto=format&fit=crop",
+      "ctaText": "تسوقي الخصومات",
+      "ctaLink": "/shop?sale=true",
+      "bgColor": "#181818",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "id": "promo-2",
+      "tag": "New Arrivals",
+      "title": "Fresh Styles Just Landed",
+      "titleAr": "تشكيلة الموسم وصلت حديثاً",
+      "desc": "اكتشفي أحدث صيحات الموضة من تصميم كبار مصممي الأزياء.",
+      "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=800&auto=format&fit=crop",
+      "ctaText": "استكشفي الجديد",
+      "ctaLink": "/shop?sort=newest",
+      "bgColor": "#F5F1EC",
+      "textColor": "#181818"
+    }
+  ],
+  "categories": [
+    {
+      "id": "women",
+      "nameAr": "نساء",
+      "nameEn": "Women",
+      "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=400&auto=format&fit=crop",
+      "icon": "User",
+      "itemCount": 42
+    },
+    {
+      "id": "men",
+      "nameAr": "رجال",
+      "nameEn": "Men",
+      "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=400&auto=format&fit=crop",
+      "icon": "Briefcase",
+      "itemCount": 28
+    },
+    {
+      "id": "dresses",
+      "nameAr": "فساتين",
+      "nameEn": "Dresses",
+      "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=400&auto=format&fit=crop",
+      "icon": "Sparkles",
+      "itemCount": 35
+    },
+    {
+      "id": "tops",
+      "nameAr": "بلوزات وبلايز",
+      "nameEn": "Tops & Blouses",
+      "image": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?q=80&w=400&auto=format&fit=crop",
+      "icon": "Shirt",
+      "itemCount": 20
+    },
+    {
+      "id": "shoes",
+      "nameAr": "أحذية",
+      "nameEn": "Shoes",
+      "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=400&auto=format&fit=crop",
+      "icon": "Footprints",
+      "itemCount": 18
+    },
+    {
+      "id": "bags",
+      "nameAr": "حقائب",
+      "nameEn": "Handbags",
+      "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=400&auto=format&fit=crop",
+      "icon": "ShoppingBag",
+      "itemCount": 24
+    },
+    {
+      "id": "accessories",
+      "nameAr": "إكسسوارات",
+      "nameEn": "Accessories",
+      "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?q=80&w=400&auto=format&fit=crop",
+      "icon": "Watch",
+      "itemCount": 15
+    },
+    {
+      "id": "sale",
+      "nameAr": "تخفيضات",
+      "nameEn": "Sale",
+      "image": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?q=80&w=400&auto=format&fit=crop",
+      "icon": "Tag",
+      "itemCount": 12
+    }
+  ],
+  "products": [
+    {
+      "id": "prod_001",
+      "nameAr": "بليزر كلاسيكي من مزيج الكتان الفاخر",
+      "nameEn": "Linen Blend Tailored Blazer",
+      "price": 489.00,
+      "discountPrice": 390.00,
+      "category": "women",
+      "images": [
+        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?q=80&w=800&auto=format&fit=crop"
+      ],
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": [
+        {"name": "بيج فاخر", "hex": "#E6D7C3"},
+        {"name": "أسود أنيق", "hex": "#181818"}
+      ],
+      "stock": 24,
+      "rating": 4.9,
+      "reviewsCount": 38,
+      "featured": true,
+      "isNew": true,
+      "status": "published",
+      "descriptionAr": "بليزر كلاسيكي مصنوع من أجود أنواع الكتان الطبيعي والقطن الناعم، يقدم قصّة متقنة تمنحك إطلالة راقية في العمل والمناسبات الرسمية.",
+      "descriptionEn": "Impeccably tailored blazer crafted from premium linen blend, offering a timeless structured fit for formal and casual sophistication."
+    },
+    {
+      "id": "prod_002",
+      "nameAr": "فستان حرير طويل بياقة انسيابية",
+      "nameEn": "Silk Cowl Neck Maxi Dress",
+      "price": 750.00,
+      "discountPrice": null,
+      "category": "dresses",
+      "images": [
+        "https://images.unsplash.com/photo-1566174053879-31528523f8ae?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?q=80&w=800&auto=format&fit=crop"
+      ],
+      "sizes": ["XS", "S", "M", "L"],
+      "colors": [
+        {"name": "ذهبي مطفي", "hex": "#A9906F"},
+        {"name": "أسود لؤلؤي", "hex": "#111111"}
+      ],
+      "stock": 15,
+      "rating": 5.0,
+      "reviewsCount": 42,
+      "featured": true,
+      "isNew": true,
+      "status": "published",
+      "descriptionAr": "فستان سهرة من الحرير الطبيعي بلمسة من الياقة الانسيابية الناعمة، ينسدل برقة ليبرز جمال القوام في الحفلات الخاصة.",
+      "descriptionEn": "Graceful liquid-silk maxi dress featuring a cascading cowl neckline and slinky silhouette."
+    },
+    {
+      "id": "prod_003",
+      "nameAr": "حقيبة يد جلدية مصممة يدويًا",
+      "nameEn": "Handcrafted Leather Tote",
+      "price": 620.00,
+      "discountPrice": 520.00,
+      "category": "bags",
+      "images": [
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?q=80&w=800&auto=format&fit=crop"
+      ],
+      "sizes": ["One Size"],
+      "colors": [
+        {"name": "بني كراميل", "hex": "#8B5A2B"},
+        {"name": "أسود ملكي", "hex": "#181818"}
+      ],
+      "stock": 10,
+      "rating": 4.8,
+      "reviewsCount": 29,
+      "featured": true,
+      "isNew": false,
+      "status": "published",
+      "descriptionAr": "حقيبة فاخرة من الجلد الطبيعي المصنوعة يدوياً بحرفية عالية، تتسع لجميع مستلزماتك اليومية مع قفل ذهبي مميز.",
+      "descriptionEn": "Exquisite full-grain leather tote bag with gold-tone hardware and spacious velvet-lined interior."
+    },
+    {
+      "id": "prod_004",
+      "nameAr": "حذاء كعب عالي بتصميم أنيق",
+      "nameEn": "Luxury Pointed High Heels",
+      "price": 420.00,
+      "discountPrice": null,
+      "category": "shoes",
+      "images": [
+        "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=800&auto=format&fit=crop"
+      ],
+      "sizes": ["37", "38", "39", "40"],
+      "colors": [
+        {"name": "أسود ورنيش", "hex": "#181818"},
+        {"name": "نود ناعم", "hex": "#D8BCAB"}
+      ],
+      "stock": 18,
+      "rating": 4.7,
+      "reviewsCount": 19,
+      "featured": true,
+      "isNew": true,
+      "status": "published",
+      "descriptionAr": "حذاء كعب عالي بتصميم مدبب يمنحك خطوات واثقة مريحة بفضل البطانة الداعمة للقوس.",
+      "descriptionEn": "Sophisticated pointed-toe pumps crafted in Italian leather with comfortable padded insoles."
+    },
+    {
+      "id": "prod_005",
+      "nameAr": "قميص أوف-وايت مطرز برقة",
+      "nameEn": "Embroidered Off-White Cotton Shirt",
+      "price": 310.00,
+      "discountPrice": 270.00,
+      "category": "tops",
+      "images": [
+        "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=800&auto=format&fit=crop"
+      ],
+      "sizes": ["S", "M", "L"],
+      "colors": [
+        {"name": "أوف-وايت", "hex": "#F5F1EC"}
+      ],
+      "stock": 30,
+      "rating": 4.8,
+      "reviewsCount": 15,
+      "featured": false,
+      "isNew": false,
+      "status": "published",
+      "descriptionAr": "قميص قطني ناصع البياض بتطريز ناعم على الياقة والأكمام، مثالي للتنسيق اليومي المتجدد.",
+      "descriptionEn": "Delicate hand-embroidered organic cotton blouse with mother-of-pearl buttons."
+    },
+    {
+      "id": "prod_006",
+      "nameAr": "نظارة شمسية كلاسيكية مع إطار ذهبي",
+      "nameEn": "Classic Gold Frame Sunglasses",
+      "price": 280.00,
+      "discountPrice": null,
+      "category": "accessories",
+      "images": [
+        "https://images.unsplash.com/photo-1511499767150-a48a237f0083?q=80&w=800&auto=format&fit=crop"
+      ],
+      "sizes": ["One Size"],
+      "colors": [
+        {"name": "ذهبي / أسود", "hex": "#A9906F"}
+      ],
+      "stock": 40,
+      "rating": 4.9,
+      "reviewsCount": 54,
+      "featured": true,
+      "isNew": true,
+      "status": "published",
+      "descriptionAr": "نظارة شمسية خفيفة الوزن بإطار مذهب وعدسات محمية من الأشعة البنفسجية UV400.",
+      "descriptionEn": "Timeless metallic frame sunglasses with premium polarized UV400 lenses."
+    },
+    {
+      "id": "prod_007",
+      "nameAr": "بدلة رجالية إيطالية فاخرة",
+      "nameEn": "Italian Tailored Men's Suit",
+      "price": 1250.00,
+      "discountPrice": 990.00,
+      "category": "men",
+      "images": [
+        "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?q=80&w=800&auto=format&fit=crop"
+      ],
+      "sizes": ["M", "L", "XL"],
+      "colors": [
+        {"name": "كحلي داكن", "hex": "#1A2530"},
+        {"name": "رمادي فاحم", "hex": "#3A3A3A"}
+      ],
+      "stock": 12,
+      "rating": 4.9,
+      "reviewsCount": 22,
+      "featured": false,
+      "isNew": true,
+      "status": "published",
+      "descriptionAr": "بدلة رجالية بقصّة إيطالية معاصرة مصنوعة من الصوف النقي لإطلالة مفعمة بالثقة والهيبة.",
+      "descriptionEn": "Impeccable Italian wool 2-piece suit tailored for modern gents."
+    },
+    {
+      "id": "prod_008",
+      "nameAr": "فستان مطرز بالخرز لسهرات الصيف",
+      "nameEn": "Beaded Summer Evening Gown",
+      "price": 890.00,
+      "discountPrice": null,
+      "category": "dresses",
+      "images": [
+        "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?q=80&w=800&auto=format&fit=crop"
+      ],
+      "sizes": ["S", "M", "L"],
+      "colors": [
+        {"name": "وردي ناعم", "hex": "#E8C5C8"}
+      ],
+      "stock": 8,
+      "rating": 5.0,
+      "reviewsCount": 11,
+      "featured": true,
+      "isNew": true,
+      "status": "published",
+      "descriptionAr": "ثوب سهرة مطرز بحبيبات الخرز واللؤلؤ يمنحك توهجاً ساحراً في المناسبات السعيدة.",
+      "descriptionEn": "Floor-sweeping gown intricately hand-beaded with subtle shimmering pearls."
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-2026-901",
+      "customerName": "سارة المحمد",
+      "email": "sara.m@example.com",
+      "phone": "+966 50 123 4567",
+      "date": "2026-08-02T14:30:00Z",
+      "total": 1140.00,
+      "status": "processing",
+      "paymentMethod": "mada",
+      "shippingAddress": "الرياض، حي الصحافة، شارع العليا - مبنى 42",
+      "items": [
+        {
+          "productId": "prod_002",
+          "name": "فستان حرير طويل بياقة انسيابية",
+          "price": 750.00,
+          "quantity": 1,
+          "size": "M",
+          "color": "ذهبي مطفي"
+        },
+        {
+          "productId": "prod_001",
+          "name": "بليزر كلاسيكي من مزيج الكتان الفاخر",
+          "price": 390.00,
+          "quantity": 1,
+          "size": "S",
+          "color": "بيج فاخر"
+        }
+      ]
+    },
+    {
+      "id": "ORD-2026-898",
+      "customerName": "فهد العتيبي",
+      "email": "fahad.o@example.com",
+      "phone": "+966 55 987 6543",
+      "date": "2026-08-01T11:15:00Z",
+      "total": 990.00,
+      "status": "shipped",
+      "paymentMethod": "credit_card",
+      "shippingAddress": "جدة، حي الشاطئ، برج الشاطئ ص.ب 124",
+      "items": [
+        {
+          "productId": "prod_007",
+          "name": "بدلة رجالية إيطالية فاخرة",
+          "price": 990.00,
+          "quantity": 1,
+          "size": "L",
+          "color": "كحلي داكن"
+        }
+      ]
+    },
+    {
+      "id": "ORD-2026-875",
+      "customerName": "نورة الشمري",
+      "email": "noura.s@example.com",
+      "phone": "+966 54 321 0987",
+      "date": "2026-07-29T18:45:00Z",
+      "total": 520.00,
+      "status": "delivered",
+      "paymentMethod": "apple_pay",
+      "shippingAddress": "الخبر، حي الحزام الذهبي، طريق الملك فهد",
+      "items": [
+        {
+          "productId": "prod_003",
+          "name": "حقيبة يد جلدية مصممة يدويًا",
+          "price": 520.00,
+          "quantity": 1,
+          "size": "One Size",
+          "color": "بني كراميل"
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "usr_admin",
+      "name": "عبدالله المدير",
+      "email": "admin@lunora.com",
+      "role": "admin",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop"
+    },
+    {
+      "id": "usr_customer1",
+      "name": "سارة المحمد",
+      "email": "sara.m@example.com",
+      "role": "customer",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop"
+    }
+  ]
+}
