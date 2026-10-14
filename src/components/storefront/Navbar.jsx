@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Search, ShoppingBag, Heart, User, Globe, ShieldCheck, X, Menu, SlidersHorizontal } from 'lucide-react';
+import { Search, ShoppingBag, Heart, User, Globe, X, Menu, SlidersHorizontal } from 'lucide-react';
 import { useLanguageStore } from '../../store/useLanguageStore';
 import { useCartStore } from '../../store/useCartStore';
 import { useWishlistStore } from '../../store/useWishlistStore';
 import { useCmsStore } from '../../store/useCmsStore';
-import { useAuthStore } from '../../store/useAuthStore';
+
 
 export function Navbar() {
   const navigate = useNavigate();
@@ -13,7 +13,7 @@ export function Navbar() {
   const { cart, toggleCart } = useCartStore();
   const { wishlist } = useWishlistStore();
   const { siteConfig } = useCmsStore();
-  const { user, isAdminLoggedIn } = useAuthStore();
+
 
   const [showAnnouncement, setShowAnnouncement] = useState(true);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, ArrowRight, ShieldCheck, Truck, RefreshCw, Headphones, Play } from 'lucide-react';
+import {  ShieldCheck, Truck, RefreshCw, Headphones, Play } from 'lucide-react';
 import { useCmsStore } from '../../store/useCmsStore';
 import { useLanguageStore } from '../../store/useLanguageStore';
 import { Button } from '../ui/Button';

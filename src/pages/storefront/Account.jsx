@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
-import { User, Package, Heart, MapPin, LogOut, Clock, CheckCircle, Truck } from 'lucide-react';
+import {  Package, Heart, LogOut} from 'lucide-react';
 import { useAuthStore } from '../../store/useAuthStore';
 import { useOrderStore } from '../../store/useOrderStore';
 import { useWishlistStore } from '../../store/useWishlistStore';
@@ -14,7 +14,7 @@ export function Account() {
   const { user, login, logout } = useAuthStore();
   const { orders, fetchOrders } = useOrderStore();
   const { wishlist } = useWishlistStore();
-  const { lang, t } = useLanguageStore();
+  const {  t } = useLanguageStore();
 
   const [activeTab, setActiveTab] = useState(tabParam);
   const [email, setEmail] = useState('');

@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import { getStoredData, saveStoredData } from '../api/client';
 
-export const useProductStore = create((set, get) => ({
+export const useProductStore = create((set) => ({
   products: [],
   categories: [],
   isLoading: false,

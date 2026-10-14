@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { Star, Heart, ShoppingBag, Truck, RefreshCw, ShieldCheck, Check, ArrowRight, Share2 } from 'lucide-react';
+import { Star, Heart, ShoppingBag, Truck, RefreshCw } from 'lucide-react';
 import { useProductStore } from '../../store/useProductStore';
 import { useCartStore } from '../../store/useCartStore';
 import { useWishlistStore } from '../../store/useWishlistStore';
@@ -12,7 +12,7 @@ export function ProductDetail() {
   const { id } = useParams();
   const { products, fetchProducts } = useProductStore();
   const { addToCart } = useCartStore();
-  const { wishlist, toggleWishlist, isInWishlist } = useWishlistStore();
+  const { toggleWishlist, isInWishlist } = useWishlistStore();
   const { lang, t } = useLanguageStore();
 
   useEffect(() => {
@@ -27,7 +27,6 @@ export function ProductDetail() {
   const [quantity, setQuantity] = useState(1);
   const [activeTab, setActiveTab] = useState('desc'); // 'desc' | 'specs' | 'reviews'
   const [newReviewText, setNewReviewText] = useState('');
-  const [newRating, setNewRating] = useState(5);
   const [reviewSubmitted, setReviewSubmitted] = useState(false);
 
   useEffect(() => {

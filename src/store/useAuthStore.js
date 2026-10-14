@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import { getStoredData } from '../api/client';
 
-export const useAuthStore = create((set, get) => ({
+export const useAuthStore = create((set) => ({
   user: null, // null or user object
   isAdminLoggedIn: false,
 

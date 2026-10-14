@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { SlidersHorizontal, X, RotateCcw, Search } from 'lucide-react';
 import { ProductCard } from '../../components/storefront/ProductCard';
@@ -26,7 +26,7 @@ export function Shop() {
   const [selectedSize, setSelectedSize] = useState('all');
   const [selectedColor, setSelectedColor] = useState('all');
   const [sortBy, setSortBy] = useState('featured');
-  const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+
 
   useEffect(() => {
     if (categoryParam) setSelectedCategory(categoryParam);

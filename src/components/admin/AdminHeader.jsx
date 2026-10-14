@@ -1,6 +1,4 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Bell, Globe, User, ExternalLink, ShieldCheck } from 'lucide-react';
+import {  Globe } from 'lucide-react';
 import { useAuthStore } from '../../store/useAuthStore';
 import { useLanguageStore } from '../../store/useLanguageStore';
 

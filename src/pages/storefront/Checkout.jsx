@@ -1,17 +1,16 @@
-import React, { useEffect, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import { CheckCircle2, CreditCard, ShieldCheck, Truck, ShoppingBag, ArrowLeft, ArrowRight } from 'lucide-react';
+import {  useState } from 'react';
+import {  useNavigate } from 'react-router-dom';
+import { CheckCircle2, CreditCard , Truck, ShoppingBag} from 'lucide-react';
 import { useCartStore } from '../../store/useCartStore';
 import { useOrderStore } from '../../store/useOrderStore';
 import { useLanguageStore } from '../../store/useLanguageStore';
 import { useCmsStore } from '../../store/useCmsStore';
 import { Button } from '../../components/ui/Button';
-import { createPayment } from "../../api/moyasar";
 import MoyasarPayment from "../../components/storefront/MoyasarPayment";
 
 export function Checkout() {
   const navigate = useNavigate();
-  const { lang, t } = useLanguageStore();
+  const { t } = useLanguageStore();
   const { cart, getCartSubtotal, getCartTotal, appliedCoupon, clearCart } = useCartStore();
   const { createOrder } = useOrderStore();
   const { siteConfig } = useCmsStore();

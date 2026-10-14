@@ -1,12 +1,12 @@
 import { create } from 'zustand';
 import { getStoredData, saveStoredData } from '../api/client';
-import { createPayment } from '../api/moyasar';
 
 
 
 
 
-export const useOrderStore = create((set, get) => ({
+
+export const useOrderStore = create((set) => ({
   orders: [],
 
   fetchOrders: () => {

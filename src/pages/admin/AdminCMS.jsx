@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Palette, Image, Type, Save, Check, Plus, Trash2 } from 'lucide-react';
+import { Palette, Image, Save, Check } from 'lucide-react';
 import { useCmsStore } from '../../store/useCmsStore';
 import { useLanguageStore } from '../../store/useLanguageStore';
 import { Button } from '../../components/ui/Button';

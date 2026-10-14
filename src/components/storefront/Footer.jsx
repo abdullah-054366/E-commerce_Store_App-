@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Mail, ArrowLeft, ArrowRight, ShieldCheck, Share2, Globe, MessageCircle } from 'lucide-react';
+import { Mail, Share2, Globe, MessageCircle } from 'lucide-react';
 import { useLanguageStore } from '../../store/useLanguageStore';
 import { useCmsStore } from '../../store/useCmsStore';
 
 export function Footer() {
-  const { lang, t } = useLanguageStore();
+  const {  t } = useLanguageStore();
   const { siteConfig } = useCmsStore();
   const [email, setEmail] = useState('');
   const [subscribed, setSubscribed] = useState(false);

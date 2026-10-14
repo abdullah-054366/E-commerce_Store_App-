@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import { getStoredData, saveStoredData } from '../api/client';
 
-export const useCmsStore = create((set, get) => ({
+export const useCmsStore = create((set) => ({
   siteConfig: null,
   heroBanners: [],
   promoBanners: [],

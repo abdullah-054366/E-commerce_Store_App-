@@ -1,9 +1,9 @@
-import React from 'react';
-import { Mail, Phone, MapPin, ShieldCheck, Truck, RefreshCw, HelpCircle } from 'lucide-react';
-import { useLanguageStore } from '../../store/useLanguageStore';
+
+import { Mail, Phone, MapPin } from 'lucide-react';
+
 
 export function AboutUs() {
-  const { t } = useLanguageStore();
+
   return (
     <div className="min-h-screen bg-[#F5F1EC] py-16 font-sans">
       <div className="max-w-4xl mx-auto px-4 bg-white rounded-3xl p-8 sm:p-12 shadow-sm border border-black/5 space-y-6">

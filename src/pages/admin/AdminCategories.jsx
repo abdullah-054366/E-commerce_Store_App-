@@ -7,7 +7,7 @@ import { Button } from '../../components/ui/Button';
 
 export function AdminCategories() {
   const { categories, products } = useProductStore();
-  const { lang, t } = useLanguageStore();
+  const { t } = useLanguageStore();
 
   const [modalOpen, setModalOpen] = useState(false);
   const [catNameAr, setCatNameAr] = useState('');

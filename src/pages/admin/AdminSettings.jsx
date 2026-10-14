@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Settings, CreditCard, Truck, ShieldCheck, Check } from 'lucide-react';
+import { useState } from 'react';
+import {  CreditCard, Truck, Check } from 'lucide-react';
 import { useCmsStore } from '../../store/useCmsStore';
 import { useLanguageStore } from '../../store/useLanguageStore';
 import { Button } from '../../components/ui/Button';

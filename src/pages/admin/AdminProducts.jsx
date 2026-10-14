@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { Plus, Edit, Trash2, Search, UploadCloud, X, ImagePlus, Star, GripVertical } from 'lucide-react';
+import { useState, useEffect, useRef } from 'react';
+import { Plus, Edit, Trash2, Search, UploadCloud, X, ImagePlus, Star } from 'lucide-react';
 import { useProductStore } from '../../store/useProductStore';
 import { useLanguageStore } from '../../store/useLanguageStore';
 import { Modal } from '../../components/ui/Modal';

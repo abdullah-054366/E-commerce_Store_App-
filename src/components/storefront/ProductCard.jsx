@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Heart, Star, ShoppingBag, Eye } from 'lucide-react';
 import { useCartStore } from '../../store/useCartStore';
@@ -8,7 +8,7 @@ import { useLanguageStore } from '../../store/useLanguageStore';
 export function ProductCard({ product }) {
   const { lang, t } = useLanguageStore();
   const { addToCart } = useCartStore();
-  const { wishlist, toggleWishlist, isInWishlist } = useWishlistStore();
+  const { toggleWishlist, isInWishlist } = useWishlistStore();
   const [isHovered, setIsHovered] = useState(false);
 
   const isSaved = isInWishlist(product.id);

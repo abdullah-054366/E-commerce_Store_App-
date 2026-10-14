@@ -1,13 +1,13 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, BarChart, Bar } from 'recharts';
-import { DollarSign, ShoppingBag, Users, TrendingUp, ArrowUpRight, Clock } from 'lucide-react';
+import { DollarSign, ShoppingBag, Users, TrendingUp, ArrowUpRight } from 'lucide-react';
 import { useOrderStore } from '../../store/useOrderStore';
 import { useProductStore } from '../../store/useProductStore';
 import { useLanguageStore } from '../../store/useLanguageStore';
 
 export function DashboardOverview() {
   const { orders, fetchOrders } = useOrderStore();
-  const { products, fetchProducts } = useProductStore();
+  const { fetchProducts } = useProductStore();
   const { t } = useLanguageStore();
 
   useEffect(() => {

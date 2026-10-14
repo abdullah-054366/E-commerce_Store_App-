@@ -1,5 +1,3 @@
-import React, { useState } from 'react';
-import { Users, Mail, Phone, ShoppingBag, ShieldCheck } from 'lucide-react';
 import { useLanguageStore } from '../../store/useLanguageStore';
 
 export function AdminCustomers() {

@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import { Eye, Package, CheckCircle2, Clock, Truck, XCircle, Search } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { Eye} from 'lucide-react';
 import { useOrderStore } from '../../store/useOrderStore';
 import { useLanguageStore } from '../../store/useLanguageStore';
 import { Modal } from '../../components/ui/Modal';
-import { Button } from '../../components/ui/Button';
+
 
 export function AdminOrders() {
   const { orders, fetchOrders, updateOrderStatus } = useOrderStore();
